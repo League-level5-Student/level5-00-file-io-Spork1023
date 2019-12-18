@@ -16,6 +16,7 @@ public class FileDecryptor {
 			String encrypted = "";
 			while(c != -1) {
 				encrypted += "" + (char) c;
+				c = fr.read();
 			}
 			String decrypted = decrypt(encrypted, "key");
 			JOptionPane.showMessageDialog(null, "The decrypted message is " + decrypted);
