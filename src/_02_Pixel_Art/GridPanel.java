@@ -9,7 +9,10 @@ import javax.swing.JPanel;
 
 public class GridPanel extends JPanel implements Serializable{
 
-	private static final long serialVersionUID = 1L;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7440658152172433912L;
 	private int windowWidth;
 	private int windowHeight;
 	private int pixelWidth;
